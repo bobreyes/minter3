@@ -13,14 +13,14 @@ form div + div {
 } 
 
 label { 
-	/* To make sure that all labels have the same size 		and are properly aligned */ 
+	/* To make sure that all labels have the same size and are properly aligned */ 
 	display: inline-block; 
 	width: 90px; 
 	text-align: right; 
 }
 
 input, textarea {  
-	/* To make sure that all text fields have the same 				font settings. By default, textareas have a 				monospace font */  
+	/* To make sure that all text fields have the same font settings. By default, textareas have a 				monospace font */  
 	font: 1em sans-serif;  
 	/* To give the same size to all text fields */  	
 	width: 300px;  
@@ -35,18 +35,19 @@ input:focus, textarea:focus {
 }
 
 textarea {  
-	/* To properly align multiline text fields with their 				labels */  
+	/* To properly align multiline text fields with their labels */  
 	vertical-align: top;  
 	/* To give enough room to type some text */  
 	height: 5em;
 }
 
 .button { 
-	/* To position the buttons to the same position of the 			text fields */ 
+	/* To position the buttons to the same position of the text fields */ 
 	padding-left: 90px; 
 	/* same size as the label elements */ 
 } 
 
 button { 
-	/* This extra margin represent roughly the same space as 		the space between the labels and their text fields */ 
-	margin-left: .5em; }
+	/* This extra margin represent roughly the same space as the space between the labels and their text fields */ 
+	margin-left: .5em; 
+}
